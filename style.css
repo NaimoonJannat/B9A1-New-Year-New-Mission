@@ -6,3 +6,108 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+                            /* This is header section  */
+header{
+    width: 85%;
+    max-width: 1600px;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+}
+.first-banner{
+    background-image: url(images/BannerImage.png);
+    border-radius: 16px;
+}
+.first-banner-items{
+    padding: 180px;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.first-banner-subtitle{
+    font-size: 32px;
+}
+.first-banner-title{
+    font-size: 72px;
+}
+
+                            /* This is Main section  */
+
+
+ /* Discount section   */
+
+.discount-container{
+    width: 50%;
+    margin: 120px auto;
+    font-family: Inter;
+    text-align: center;
+}
+.discount-heading{
+    color: #F00;
+    font-size: 88px;
+}
+.discount-subtitle{
+    color: #F00;
+    font-size: 24px;
+    padding: 48px 0px 20px;
+}
+.category-name{
+    font-size: 48px;
+    color: #070211;
+    padding-bottom: 48px;
+}
+
+/* <!-- All other sections of main except 'discount' --> */
+
+.sub-main{
+    width: 85%;
+    max-width: 1600px;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/* This is second banner  */
+.second-banner{
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+}
+.second-banner-items{
+    padding: 125px 0px 140px 125px;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: left;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.second-banner-title{
+    font-family: Merriweather;
+    font-size: 64px;
+    letter-spacing: 7.04px;
+}
+.second-banner-info{
+    font-family: Inter;
+    font-size: 18px;
+    margin-top: 24px;
+}
+.join-btn{
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    color: #fff;
+    background-color: #ffffff00;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 48px;
+    padding: 10px;
+}
+.second-banner img{
+    margin: 70px 140px 70px 0px;
+}
+
+/* This is Footer section  */
