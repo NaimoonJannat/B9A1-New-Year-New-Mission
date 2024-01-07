@@ -140,7 +140,42 @@ header{
     padding: 16px 32px;
 }
 
-
+/* Product portfolio section  */
+.product-portfolio{
+    text-align: left;
+}
+.product-info-container{
+    width: 70%;
+    margin: 120px 0px 48px;
+}
+.product-subtitle{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.product-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+.product-info{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+}
+.product-container{
+    display: flex;
+    gap: 24px;
+}
+.product-item{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 24px;
+}
 
 /* Subscribe banner  */
 
@@ -149,6 +184,7 @@ header{
     padding: 80px;
     background-color: rgba(255, 0, 0, 0.05);
     align-items: center;
+    margin-top: 120px;
 }
 .subscribe-banner-items{
     width: 70%;
