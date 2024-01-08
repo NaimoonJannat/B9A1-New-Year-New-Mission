@@ -148,6 +148,7 @@ header{
 }
 .fourth-title{
     font-size: 48px;
+    padding: 10px 0px 20px;
 }
 .fourth-banner-one #comming-soon{
     color: #070211;
@@ -167,6 +168,7 @@ header{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
+    padding-bottom: 40px;
 }
 .fourth-banner-img{
     border: 20px solid;
@@ -266,6 +268,11 @@ header{
     border-radius: 16px;
     border: none;
     margin-bottom: 24px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.product-item:hover {
+    background-color: rgba(255, 1, 1, 0.719);
+    box-shadow: 0 0 10px rgb(247, 5, 5); 
 }
 
 /* Subscribe banner  */
