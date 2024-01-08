@@ -64,7 +64,7 @@ header{
 .sub-main{
     width: 85%;
     max-width: 1600px;
-    margin: 50px auto;        /* !!! */
+    margin: 0px auto;      /* !!! */
     align-items: center;
     justify-content: center;
 }
@@ -139,6 +139,36 @@ header{
     margin-top: 48px;
     padding: 16px 32px;
 }
+
+/* Holiday sale banner one  */
+.sale-banner-one{
+    text-align: center;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto 70px;
+}
+.sale-banner-one-subtitle{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+}
+.sale-banner-one-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+}
+.red-holiday{
+    color: #F00;
+}
+.sale-banner-one-info{
+    font-family: Inter;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+}
+/* Holiday sale banner two  */
+
+
 
 /* Product portfolio section  */
 .product-portfolio{
