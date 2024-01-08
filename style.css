@@ -142,8 +142,39 @@ header{
 
 /* Fourth banner  */
 
-
-
+.fourth-banner{
+    display: flex;
+    align-items: center;
+}
+.fourth-title{
+    font-size: 48px;
+}
+.fourth-banner-one #comming-soon{
+    color: #070211;
+    font-family: Merriweather;
+}
+.fourth-banner-two #year{
+    color: #F00;
+    font-family: Inter;
+}
+.fourth-subtitle{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+}
+.fourth-info{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+}
+.fourth-banner-img{
+    border: 20px solid;
+    border-color: #F00;
+    border-radius: 470px;
+    padding: 30px;
+    margin: 0px 100px 0px 70px;
+}
 /* Holiday sale banner one  */
 .sale-banner-one{
     text-align: center;
