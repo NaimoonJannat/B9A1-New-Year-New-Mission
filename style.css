@@ -64,7 +64,7 @@ header{
 .sub-main{
     width: 85%;
     max-width: 1600px;
-    margin: 0px auto;      /* !!! */
+    margin: 0px auto;      
     align-items: center;
     justify-content: center;
 }
@@ -105,6 +105,10 @@ header{
     border-radius: 5px;
     margin-top: 48px;
     padding: 10px;
+    transition: color 0.3s;
+}
+.primary-btn:hover {
+    background-color: #414141f0;
 }
 .second-banner img{
     margin: 70px 140px 70px 0px;
@@ -120,7 +124,7 @@ header{
     border-radius: 16px;
     font-family: Inter;
     font-size: 32px;
-    margin-top: 130px;  /* !!! */
+    margin-top: 130px;  
 }
 .third-banner-info{
     color: #070211;
@@ -138,6 +142,10 @@ header{
     color: #fff;
     margin-top: 48px;
     padding: 16px 32px;
+    transition: color 0.3s;
+}
+.join-btn-two:hover {
+    background-color: rgb(201, 0, 0);
 }
 
 /* Fourth banner  */
@@ -150,7 +158,7 @@ header{
     font-size: 48px;
     padding: 10px 0px 20px;
 }
-.fourth-banner-one #comming-soon{
+.fourth-banner-one #coming-soon{
     color: #070211;
     font-family: Merriweather;
 }
@@ -324,7 +332,13 @@ header{
     background-color: #F00;
     color: #fff;
     font-size: 15px;
+    transition: color 0.3s;
 }
+.subscribe-btn:hover {
+    background-color: rgb(201, 0, 0);
+}
+
+
 
 
 /* This is Footer section  */
@@ -345,6 +359,10 @@ footer{
 }
 .one #copyright{
     padding-top: 260px;
+}
+.logo{
+    width: 64px;
+    height: 64px;
 }
 .two #unsubscribe{
     margin-top: 260px;
