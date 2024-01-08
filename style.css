@@ -95,7 +95,7 @@ header{
     font-size: 18px;
     margin-top: 24px;
 }
-.join-btn{
+.primary-btn{
     text-align: center;
     font-family: Inter;
     font-size: 20px;
@@ -222,13 +222,14 @@ header{
     background-repeat: no-repeat;
     height: 433px;
     width: 429px;
-    margin: 60px 80px;
+    margin: 0px;
     position: relative; 
     display: flex;
     align-items: center;
 }
-.sale-banner-two-red-bg #fifty{
+.girlpic #fifty{
     height: 220px;
+    padding-right: 100px;
 }
 
 
@@ -268,11 +269,12 @@ header{
     border-radius: 16px;
     border: none;
     margin-bottom: 24px;
-    transition: background-color 0.3s, box-shadow 0.3s;
+    transition: border 0.3s, box-shadow 0.3s;
 }
 .product-item:hover {
-    background-color: rgba(255, 1, 1, 0.719);
-    box-shadow: 0 0 10px rgb(247, 5, 5); 
+     border: 5px solid #F00;
+     box-shadow: 0px 0px 20px rgb(255, 2, 2);
+     border-radius: 22px;
 }
 
 /* Subscribe banner  */
@@ -326,3 +328,30 @@ header{
 
 
 /* This is Footer section  */
+footer{
+    background-color: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    display: flex;
+    padding: 120px 150px;
+    justify-content: space-around;
+}
+.phone, .web{
+    padding-bottom: 10px;
+}
+.one{
+    width: 25%;
+}
+.one #copyright{
+    padding-top: 260px;
+}
+.two #unsubscribe{
+    margin-top: 260px;
+    margin-left: 100px;
+}
+.foot-logo{
+    padding: 150px;
+    display: flex;
+    gap: 25px;
+}
