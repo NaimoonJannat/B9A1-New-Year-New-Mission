@@ -351,10 +351,14 @@ footer{
     background-color: #070211;
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 24px;  
+    padding: 100px 150px; 
+}
+.foot-container{
     display: flex;
-    padding: 120px 150px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 70px auto;
+    width: 85%;
 }
 .phone, .web{
     padding-bottom: 10px;
@@ -362,19 +366,26 @@ footer{
 .one{
     width: 25%;
 }
-.one #copyright{
-    padding-top: 260px;
-}
 .logo{
     width: 64px;
     height: 64px;
 }
-.two #unsubscribe{
-    margin-top: 260px;
-    margin-left: 100px;
-}
 .foot-logo{
-    padding: 150px;
     display: flex;
+    justify-content: center;
     gap: 25px;
+    margin: 30px auto;
+    width: 22%;
+}
+.transparent-line{
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 85%;
+    height: 1px;
+    margin: 0px auto;
+    border: none;
+}
+
+.foot-container #copyright{
+    padding-top: 100px;
+    
 }
