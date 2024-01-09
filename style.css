@@ -230,14 +230,18 @@ header{
     background-repeat: no-repeat;
     height: 433px;
     width: 429px;
-    margin: 0px;
+    /* margin: 0px; */
     position: relative; 
     display: flex;
     align-items: center;
+    left: 57px;
+    top: 13px;
 }
 .girlpic #fifty{
+    position: absolute;
     height: 220px;
-    padding-right: 100px;
+    left: -100px;
+
 }
 
 
